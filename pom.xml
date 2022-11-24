@@ -43,11 +43,16 @@
 		<tag>HEAD</tag>
 	</scm>
 
-	<distributionManagement>
-		<repository>
+    <distributionManagement>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+
+        <!--<repository>
 			<id>salespoint</id>
 			<url>sftp://st.inf.tu-dresden.de:44/home/salespnt/salespoint/repository</url>
-		</repository>
+        </repository> -->
 	</distributionManagement>
 
 </project>
